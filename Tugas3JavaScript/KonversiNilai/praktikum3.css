@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+.login-box{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.login-box h1{
+    border-bottom: 5px solid rgb(156, 31, 31);
+    padding: 2px 0;
+    margin-bottom: 10px; 
+    letter-spacing: 2px;
+}
+.textbox{
+    padding: 7px 0px;
+    width: 100%;
+}
+.textbox input{
+    width: 100%;
+    font-size: 15px;
+}
+.button{
+    text-align: right;
+    float: right;
+    line-height: 10px;
+    margin-top: 10px;
+}
